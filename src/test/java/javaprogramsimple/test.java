@@ -1,31 +1,23 @@
 package javaprogramsimple;
 
-import java.util.Scanner;
+import java.util.HashSet;
 
 public class test {
 
 	public static void main(String[] args) {
 
-		int num=1234;
-		int even_num=0;
-		int odd_num=0;
+		int a=10;
+		int b=20;
+		int c=30;
 		
-		while(num>0) {
-			int reminder=num%10;
-			if(reminder%2==0) {
-				even_num++;
-				
-			}else {
-				odd_num++;
-				
-			}
-			num=num/10;
-			
+		if(a>b&&a>c) {
+			System.out.println("a is grater");
 		}
-		System.out.println(even_num);
-		System.out.println(odd_num);
+		if(b>a&&b>c) {
+			System.out.println("b is grater");
+		}
+		if(c>b&&c>a) {
+			System.out.println("c is grater");
+		}
 	}
-	
-	
-
 }
