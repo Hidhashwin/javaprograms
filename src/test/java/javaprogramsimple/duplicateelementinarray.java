@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class duplicateelementinarray {
 
 	public static void main(String[] args) {
-		String arr[] = { "java", "python", "c", "c++", "java" };
+		String arr[] = { "java", "python", "c", "c++",  };
 
 		HashSet<String> langs=new HashSet<String>();
 		boolean flag=false;
@@ -14,9 +14,11 @@ public class duplicateelementinarray {
 				System.out.println("duplicate element found..... " +q);
 				flag=true;
 			}
+			
+			}
+		if (!flag) {
+            System.out.println("No duplicate element found");
 		}
-		if(flag=false) {
-			System.out.println("No duplicate element found ");
-		}
+		
 	}
 }
