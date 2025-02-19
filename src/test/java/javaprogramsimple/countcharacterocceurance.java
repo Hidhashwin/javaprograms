@@ -5,7 +5,7 @@ public class countcharacterocceurance {
 	public static void main(String[] args) {
 		String name="Hi Gopalakrishnan how are you?";
 		int totallength=name.length();
-		int totallengthafterrmovedA=name.replace("G", "").length();
+		int totallengthafterrmovedA=name.replace("a", "").length();
 		
 		int countofa=totallength-totallengthafterrmovedA;
 		

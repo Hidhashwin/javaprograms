@@ -3,7 +3,7 @@ package javaprogramsimple;
 public class missingnumberinarray {
 
 	public static void main(String[] args) {
-		int a[] = { 1, 2, 3, 4, 6, 7 };
+		int a[] = { 2,1,4,3,7,6 };
 
 		int sum1 = 0;
 
