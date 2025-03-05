@@ -13,8 +13,8 @@ System.out.println("drawing " + todraw );
 	}
 
 	public static void main(String[] args) {
-		conoverloading load=new conoverloading();
-		conoverloading load2=new conoverloading("circle");
+		conoverloading conoverloading=new conoverloading();
+		conoverloading conoverloading1=new conoverloading("circle");
 	}
 
 }
