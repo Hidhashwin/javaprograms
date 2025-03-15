@@ -1,19 +1,20 @@
 package javaprogramsimple;
 
+import java.util.Scanner;
+
 public class reversesentense {
 
 	public static void main(String[] args) {
-		String str = "Welcome to java";
-		String[] word = str.split("");
-		String revsentense = "";
-
-		for (int i=word.length-1;i>=0;i--) {
-			StringBuilder builder = new StringBuilder(word[i]);
-			builder.reverse();
-
-			revsentense = revsentense + builder.toString() + "";
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter sentense : ");
+		String sentense=scanner.nextLine();
+		
+		StringBuilder rev_sentense=new StringBuilder();
+		
+		for(int i=sentense.length()-1;i>=0;i--) {
+			rev_sentense.append(sentense.charAt(i));
 		}
-		System.out.println(revsentense);
+		System.out.println("reverse sentense is "+ rev_sentense.toString());
 	}
 
 }
