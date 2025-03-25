@@ -14,7 +14,7 @@ public class reversesentense {
 		for(int i=sentense.length()-1;i>=0;i--) {
 			rev_sentense.append(sentense.charAt(i));
 		}
-		System.out.println("reverse sentense is "+ rev_sentense.toString());
+		System.out.println("reverse sentense is "+ rev_sentense);
 	}
 
 }

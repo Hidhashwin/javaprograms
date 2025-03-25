@@ -34,7 +34,7 @@ public class checkupperloweranddigits {
 	}
 
 	public static void main(String[] args) {
-		gettext("Hi DHashwin123@#$ ");
+		gettext("Gopalakr123&^* ishnan");
 		}
 	}
 

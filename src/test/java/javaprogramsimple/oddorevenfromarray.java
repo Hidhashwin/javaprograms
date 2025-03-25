@@ -1,6 +1,6 @@
 package javaprogramsimple;
 
-public class evenoddfromarray {
+public class oddorevenfromarray {
 
 	public void method1() {
 		int a[] = { 1, 2, 3, 4, 5, 6 };
@@ -37,7 +37,7 @@ public class evenoddfromarray {
 	}
 
 	public static void main(String[] args) {
-		evenoddfromarray aa=new evenoddfromarray();
+		oddorevenfromarray aa=new oddorevenfromarray();
 		aa.method1();
 		aa.method2();
 	}
